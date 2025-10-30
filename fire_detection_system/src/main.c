@@ -1,10 +1,10 @@
 #include <Wire.h>
 #include <LiquidCrystal_I2C.h>
 
-#define FIRE_DO 7     // Digital output from fire sensor
-#define FIRE_AO A0    // Analog output from fire sensor
-#define LED 8         // LED pin
-#define BUZZER 9      // Buzzer pin
+#define FIRE_DO 7     
+#define FIRE_AO A0    
+#define LED 8         
+#define BUZZER 9      
 
 LiquidCrystal_I2C lcd(0x27, 16, 2); // LCD I2C address
 
